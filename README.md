@@ -26,7 +26,7 @@ This application demonstrates:
 - **MSTest** 					- Unit testing framework
 - **Moq** 					- Mocking framework for tests
 - **Docker** 					- Containerization
-## Database
+## 🛢 Database 
 
 CREATE DATABASE ProductDb;
 GO
