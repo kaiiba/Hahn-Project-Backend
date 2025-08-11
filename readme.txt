@@ -1,0 +1,1 @@
+Scaffold-DbContext Name="DefaultConnection" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Persistence -Context AppDbContext -Project Project.Infrastructure -StartupProject Project.API -Force
