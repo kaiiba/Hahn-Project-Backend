@@ -52,10 +52,10 @@ CREATE TABLE Products (
 
 
 ### API Endpoints
-GET    /api/products           			# Get all products 
-GET    /api/products/{id}      			# Get product by ID 
-POST   /api/products           			# Create new product 
-PATCH  /api/products/{id}/decrease-stock  	# Decrease product stock
+- GET    /api/products           			# Get all products 
+- GET    /api/products/{id}      			# Get product by ID 
+- POST   /api/products           			# Create new product 
+- PATCH  /api/products/{id}/decrease-stock  	# Decrease product stock
 
 ### Domain Business Rules
 - Product names are required and cannot exceed 100 characters
