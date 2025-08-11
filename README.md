@@ -26,6 +26,21 @@ This application demonstrates:
 - **MSTest** 					- Unit testing framework
 - **Moq** 					- Mocking framework for tests
 - **Docker** 					- Containerization
+## Database
+
+CREATE DATABASE ProductDb;
+GO
+
+USE ProductDb;
+GO
+
+CREATE TABLE Products (
+    Id INT PRIMARY KEY IDENTITY(1,1),
+    Name NVARCHAR(100) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    Stock INT NOT NULL,
+    CreatedAt DATETIME2 NOT NULL DEFAULT GETDATE()
+);
 
 ## 🚀 Features
 
